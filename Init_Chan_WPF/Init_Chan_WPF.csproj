@@ -11,10 +11,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="ViewModels\Pages\HomeViewModel.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Content Include="wpfui-icon.ico" />
   </ItemGroup>
 
