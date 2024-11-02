@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Init_Chan_WPF.Services;
 
 namespace Init_Chan_WPF.Views.Pages
 {
@@ -35,7 +36,7 @@ namespace Init_Chan_WPF.Views.Pages
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
+            Main_process.stdprocess("lwBarClientApp32.exe") ;
         }
     }
 }
