@@ -18,6 +18,7 @@
             <ui:VirtualizingItemsControl.Foreground>
                 <ImageBrush/>
             </ui:VirtualizingItemsControl.Foreground>
+            <ui:ToggleSwitch Content="ToggleSwitch" VerticalAlignment="Top" Checked="ToggleSwitch_Checked_1"/>
         </ui:VirtualizingItemsControl>
     </Grid>
 </Page>

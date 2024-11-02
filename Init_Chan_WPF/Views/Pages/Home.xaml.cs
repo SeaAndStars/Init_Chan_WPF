@@ -28,9 +28,12 @@ namespace Init_Chan_WPF.Views.Pages
         }
 
 
-        private void ToggleSwitch_Checked(object sender, RoutedEventArgs e)
+        private void ToggleSwitch_Checked_1(object sender, RoutedEventArgs e)
         {
+            if (checked)
+            {
 
+            }
         }
     }
 }
