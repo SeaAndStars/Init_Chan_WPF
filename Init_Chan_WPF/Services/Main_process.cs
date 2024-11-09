@@ -34,6 +34,7 @@ namespace Init_Chan_WPF.Services
 
             Console.WriteLine("Monitoring started. Press Enter to stop...");
             Console.ReadLine();
+            
             SetMouseAcceleration(false);
             // 停止监控
             StopMonitoring();
